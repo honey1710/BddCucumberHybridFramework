@@ -42,4 +42,10 @@ public class login {
 
         System.out.println("hjkhfr");
     }
+
+    @Then("Forget Password link should be displayed")
+    public void forgetPasswordLinkShouldBeDisplayed() {
+        loginPageOR=new loginPageOR(f.getDriver());
+        Assert.assertTrue(loginPageOR.isForgetPasswordLinkDisplayed());
+    }
 }

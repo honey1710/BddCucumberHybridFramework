@@ -40,4 +40,9 @@ public class loginPageOR {
         return driver.findElement(Dashboard).getText();
     }
 
+    public boolean isForgetPasswordLinkDisplayed()
+    {
+        return driver.findElement(forgotyourpassword).isDisplayed();
+    }
+
 }
