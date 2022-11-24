@@ -1,0 +1,2 @@
+file:src/resources/Feature/Dashboard.feature:5
+file:src/resources/Feature/loginPage.feature:2

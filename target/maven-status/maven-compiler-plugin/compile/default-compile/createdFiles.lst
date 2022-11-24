@@ -1,0 +1,6 @@
+com\pages\DashboardPage.class
+com\pages\AdminPage.class
+com\DriverFactory\factory.class
+com\pages\loginPageOR.class
+com\Util\configReader.class
+com\Util\ElementUtil.class
